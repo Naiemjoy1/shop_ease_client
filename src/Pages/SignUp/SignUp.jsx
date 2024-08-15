@@ -11,7 +11,7 @@ const SignUp = () => {
     formState: { errors },
   } = useForm();
 
-  const { createUser } = useAuth();
+  const { createUser, updateUserProfile } = useAuth();
   const navigate = useNavigate();
 
   const onSubmit = (data) => {
@@ -19,6 +19,7 @@ const SignUp = () => {
       .then((result) => {
         const loggedUser = result.user;
         console.log(loggedUser);
+        updateUserProfile(data.name, data.photo);
         Swal.fire({
           position: "top-end",
           icon: "success",
@@ -61,6 +62,18 @@ const SignUp = () => {
             {...register("email", { required: true })}
           />
           {errors.email && <span>This field is required</span>}
+        </div>
+        <div className="form-control">
+          <label className="label">
+            <span className="label-text">Photo Url</span>
+          </label>
+          <input
+            type="text"
+            placeholder="PhotoUrl"
+            name="photo"
+            className="input input-bordered"
+            {...register("photo", { required: true })}
+          />
         </div>
         <div className="form-control">
           <label className="label">
