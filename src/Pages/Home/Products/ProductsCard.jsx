@@ -1,11 +1,15 @@
 import { Rating } from "@smastrom/react-rating";
 
 import "@smastrom/react-rating/style.css";
+import { FaRegEdit } from "react-icons/fa";
+import { Link } from "react-router-dom";
+import useAuth from "../../../Hooks/useAuth";
 import { MdDelete } from "react-icons/md";
 
 const ProductsCard = ({ product }) => {
   const { name, image, description, price, category, rating, createdAt } =
     product;
+  const { user } = useAuth();
 
   // Convert the createdAt date to a more readable format
   const formattedDate = new Date(createdAt).toLocaleDateString("en-US", {
@@ -75,11 +79,26 @@ const ProductsCard = ({ product }) => {
           </div>
         </div>
       </div>
-      <div class="absolute top-4 right-4 text-red-600 text-2xl">
-        <button>
-          <MdDelete />
-        </button>
-      </div>
+      {user ? (
+        <div class="absolute top-4 right-4 text-primary text-xl">
+          <Link to={`products/${product._id}`}>
+            <button>
+              <FaRegEdit />
+            </button>
+          </Link>
+        </div>
+      ) : (
+        ""
+      )}
+      {user ? (
+        <div class="absolute left-4 top-4 text-primary text-xl">
+          <button>
+            <MdDelete />
+          </button>
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 };

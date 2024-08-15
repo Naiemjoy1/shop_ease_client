@@ -110,7 +110,7 @@ const Products = () => {
             className="p-2 border rounded w-full"
           />
 
-          <div className="space-y-4 grid grid-cols-2 items-center gap-4">
+          <div className="space-y-2 grid lg:grid-cols-1 grid-cols-2 items-center gap-2">
             <select
               value={sortCriteria}
               onChange={handleSortChange}
