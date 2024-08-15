@@ -12,21 +12,21 @@ const ProductsCard = ({ product }) => {
   });
 
   return (
-    <div>
-      <div className="card bg-base-100 shadow-xl">
-        <figure>
-          <img src={image} alt={name} />
-        </figure>
-        <div className="card-body">
+    <div className="card bg-base-100 shadow-xl h-full flex flex-col">
+      <figure>
+        <img src={image} alt={name} className="w-full h-48 object-cover" />
+      </figure>
+      <div className="card-body flex flex-col justify-between">
+        <div>
           <h2 className="card-title">{name}</h2>
           <p>{description}</p>
           <p>Category: {category}</p>
           <p>Price: ${price}</p>
           <p>Rating: {rating}</p>
           <p>Created On: {formattedDate}</p>
-          <div className="card-actions justify-end">
-            <button className="btn btn-primary">Buy Now</button>
-          </div>
+        </div>
+        <div className="card-actions justify-end mt-4">
+          <button className="btn btn-primary">Buy Now</button>
         </div>
       </div>
     </div>

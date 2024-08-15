@@ -12,7 +12,7 @@ const Products = () => {
   }, []);
 
   return (
-    <div className="grid grid-cols-3 justify-between items-center gap-6">
+    <div className="grid grid-cols-3 justify-between gap-6">
       {products.map((product) => (
         <ProductsCard product={product}></ProductsCard>
       ))}

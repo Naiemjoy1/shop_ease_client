@@ -2,352 +2,201 @@
   {
     "name": "Smartphone X1",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "A powerful smartphone with a stunning display.",
+    "description": "A powerful smartphone with a stunning display, offering a seamless experience with its cutting-edge processor, advanced camera system, and long-lasting battery life. Perfect for gaming, photography, and everyday use.",
     "price": 699,
     "category": "Electronics",
     "rating": 4.5,
-    "createdAt": "2022-08-01T12:00:00Z"
+    "createdAt": "2022-08-01T12:00:00Z",
+    "brand": "TechMakers"
   },
   {
     "name": "Laptop Pro 15",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "High-performance laptop with 16GB RAM.",
+    "description": "High-performance laptop with 16GB RAM, designed for professionals and creatives. It features a sleek design, vivid display, and robust processing power for multitasking, video editing, and gaming.",
     "price": 1299,
     "category": "Electronics",
     "rating": 4.7,
-    "createdAt": "2022-08-02T09:30:00Z"
+    "createdAt": "2022-08-02T09:30:00Z",
+    "brand": "EliteComputers"
   },
   {
     "name": "Wireless Earbuds",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Compact and comfortable wireless earbuds.",
+    "description": "Compact and comfortable wireless earbuds with superior sound quality, noise-cancellation features, and a long-lasting battery. Ideal for music lovers on the go.",
     "price": 99,
     "category": "Accessories",
     "rating": 4.3,
-    "createdAt": "2022-08-03T15:45:00Z"
+    "createdAt": "2022-08-03T15:45:00Z",
+    "brand": "SoundWave"
   },
   {
     "name": "4K Ultra HD TV",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Ultra HD television with vibrant colors.",
+    "description": "Experience stunning visuals with this Ultra HD television. It offers vibrant colors, deep contrast, and smart TV capabilities for an immersive viewing experience.",
     "price": 899,
     "category": "Electronics",
     "rating": 4.8,
-    "createdAt": "2022-08-04T17:20:00Z"
+    "createdAt": "2022-08-04T17:20:00Z",
+    "brand": "VisionTech"
   },
   {
     "name": "Bluetooth Speaker",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Portable speaker with deep bass.",
+    "description": "Portable speaker with deep bass and crystal-clear sound, perfect for parties, outdoor adventures, and home entertainment. It features long battery life and a durable design.",
     "price": 129,
     "category": "Accessories",
     "rating": 4.4,
-    "createdAt": "2022-08-05T11:00:00Z"
+    "createdAt": "2022-08-05T11:00:00Z",
+    "brand": "BassBoom"
   },
   {
     "name": "Fitness Tracker",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Track your health metrics with ease.",
+    "description": "Track your health metrics with ease using this sleek fitness tracker. It monitors your heart rate, steps, calories burned, and sleep patterns, keeping you motivated on your fitness journey.",
     "price": 59,
     "category": "Wearables",
     "rating": 4.1,
-    "createdAt": "2022-08-06T14:30:00Z"
+    "createdAt": "2022-08-06T14:30:00Z",
+    "brand": "FitTech"
   },
   {
     "name": "Gaming Console Z",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Next-gen gaming experience.",
+    "description": "Next-gen gaming experience with ultra-fast load times, breathtaking graphics, and a wide selection of games. Perfect for hardcore gamers and casual players alike.",
     "price": 499,
     "category": "Gaming",
     "rating": 4.9,
-    "createdAt": "2022-08-07T10:15:00Z"
+    "createdAt": "2022-08-07T10:15:00Z",
+    "brand": "GameMaster"
   },
   {
     "name": "Mechanical Keyboard",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Tactile feedback for efficient typing.",
+    "description": "Tactile feedback for efficient typing, with customizable RGB lighting, durable key switches, and ergonomic design. Ideal for gamers and professionals.",
     "price": 89,
     "category": "Accessories",
     "rating": 4.6,
-    "createdAt": "2022-08-08T08:45:00Z"
+    "createdAt": "2022-08-08T08:45:00Z",
+    "brand": "TypeMaster"
   },
   {
     "name": "Smartwatch Series 5",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Stay connected and track fitness goals.",
+    "description": "Stay connected and track fitness goals with this smartwatch. It offers a sleek design, health monitoring, notifications, and various apps to enhance your daily life.",
     "price": 249,
     "category": "Wearables",
     "rating": 4.5,
-    "createdAt": "2022-08-09T19:00:00Z"
+    "createdAt": "2022-08-09T19:00:00Z",
+    "brand": "WristGenius"
   },
   {
     "name": "DSLR Camera Alpha",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Capture high-quality images.",
+    "description": "Capture high-quality images with this DSLR camera. It features a powerful sensor, fast autofocus, and a variety of lenses, perfect for both amateurs and professionals.",
     "price": 899,
     "category": "Cameras",
     "rating": 4.7,
-    "createdAt": "2022-08-10T13:10:00Z"
+    "createdAt": "2022-08-10T13:10:00Z",
+    "brand": "PhotoPro"
   },
   {
     "name": "Running Shoes Pro",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Lightweight and durable running shoes.",
+    "description": "Lightweight and durable running shoes designed for optimal performance. They offer excellent cushioning, support, and grip, perfect for long runs and training sessions.",
     "price": 129,
     "category": "Footwear",
     "rating": 4.2,
-    "createdAt": "2022-08-11T15:00:00Z"
+    "createdAt": "2022-08-11T15:00:00Z",
+    "brand": "SpeedRunner"
   },
   {
     "name": "Leather Jacket",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Stylish and durable leather jacket.",
+    "description": "Stylish and durable leather jacket with a classic design. It offers warmth, comfort, and a touch of rugged elegance, perfect for any season.",
     "price": 199,
     "category": "Apparel",
     "rating": 4.3,
-    "createdAt": "2022-08-12T16:30:00Z"
+    "createdAt": "2022-08-12T16:30:00Z",
+    "brand": "UrbanStyle"
   },
   {
     "name": "Electric Kettle",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Boil water quickly with this electric kettle.",
+    "description": "Boil water quickly with this electric kettle. It features a sleek design, fast boiling time, and safety features, making it an essential kitchen appliance.",
     "price": 49,
     "category": "Home Appliances",
     "rating": 4.5,
-    "createdAt": "2022-08-13T07:45:00Z"
+    "createdAt": "2022-08-13T07:45:00Z",
+    "brand": "QuickBoil"
   },
   {
     "name": "Office Chair Ergonomic",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Comfortable ergonomic office chair.",
+    "description": "Comfortable ergonomic office chair designed to support long hours of work. It features adjustable height, lumbar support, and a breathable mesh back.",
     "price": 159,
     "category": "Furniture",
     "rating": 4.4,
-    "createdAt": "2022-08-14T10:00:00Z"
+    "createdAt": "2022-08-14T10:00:00Z",
+    "brand": "ComfortSeat"
   },
   {
     "name": "Coffee Maker",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Brew fresh coffee every morning.",
+    "description": "Brew fresh coffee every morning with this easy-to-use coffee maker. It offers various brewing options, a sleek design, and easy cleanup.",
     "price": 89,
     "category": "Home Appliances",
     "rating": 4.1,
-    "createdAt": "2022-08-15T11:20:00Z"
+    "createdAt": "2022-08-15T11:20:00Z",
+    "brand": "BrewMaster"
   },
   {
     "name": "Smart Refrigerator",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Keep your food fresh with smart features.",
+    "description": "Keep your food fresh with smart features like temperature control, energy efficiency, and a spacious interior. Perfect for modern kitchens.",
     "price": 1499,
     "category": "Home Appliances",
     "rating": 4.6,
-    "createdAt": "2022-08-16T12:40:00Z"
+    "createdAt": "2022-08-16T12:40:00Z",
+    "brand": "CoolSmart"
   },
   {
     "name": "Digital SLR Camera",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Capture memories in stunning detail.",
-    "price": 649,
+    "description": "Capture memories in stunning detail with this digital SLR camera. It offers a high-resolution sensor, versatile lenses, and advanced features for professional-quality photos.",
+    "price": 999,
     "category": "Cameras",
-    "rating": 4.5,
-    "createdAt": "2022-08-17T14:10:00Z"
-  },
-  {
-    "name": "Mountain Bike",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Conquer trails with this durable mountain bike.",
-    "price": 349,
-    "category": "Sports",
-    "rating": 4.3,
-    "createdAt": "2022-08-18T16:30:00Z"
-  },
-  {
-    "name": "4K Action Camera",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Capture adventures in ultra HD.",
-    "price": 199,
-    "category": "Cameras",
-    "rating": 4.7,
-    "createdAt": "2022-08-19T08:00:00Z"
-  },
-  {
-    "name": "Electric Toothbrush",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Ensure clean and healthy teeth.",
-    "price": 79,
-    "category": "Health",
-    "rating": 4.2,
-    "createdAt": "2022-08-20T09:30:00Z"
-  },
-  {
-    "name": "Wireless Mouse",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Smooth and responsive wireless mouse.",
-    "price": 39,
-    "category": "Accessories",
-    "rating": 4.4,
-    "createdAt": "2022-08-21T11:00:00Z"
-  },
-  {
-    "name": "Bluetooth Headphones",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Comfortable headphones with rich sound.",
-    "price": 129,
-    "category": "Accessories",
-    "rating": 4.6,
-    "createdAt": "2022-08-22T13:45:00Z"
-  },
-  {
-    "name": "Electric Scooter",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Eco-friendly transportation option.",
-    "price": 299,
-    "category": "Transportation",
-    "rating": 4.3,
-    "createdAt": "2022-08-23T15:00:00Z"
-  },
-  {
-    "name": "Smart Thermostat",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Control your home's temperature with ease.",
-    "price": 199,
-    "category": "Home Automation",
-    "rating": 4.5,
-    "createdAt": "2022-08-24T16:15:00Z"
-  },
-  {
-    "name": "Portable Charger",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Keep your devices charged on the go.",
-    "price": 49,
-    "category": "Accessories",
-    "rating": 4.1,
-    "createdAt": "2022-08-25T17:30:00Z"
-  },
-  {
-    "name": "Noise Cancelling Headphones",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Immerse yourself in music without distractions.",
-    "price": 199,
-    "category": "Accessories",
-    "rating": 4.7,
-    "createdAt": "2022-08-26T08:45:00Z"
-  },
-  {
-    "name": "Electric Shaver",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Get a smooth and comfortable shave.",
-    "price": 69,
-    "category": "Health",
-    "rating": 4.2,
-    "createdAt": "2022-08-27T10:00:00Z"
+    "rating": 4.8,
+    "createdAt": "2022-08-17T14:00:00Z",
+    "brand": "ProCapture"
   },
   {
     "name": "Smart Light Bulbs",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Control your lighting with your smartphone.",
-    "price": 59,
-    "category": "Home Automation",
-    "rating": 4.4,
-    "createdAt": "2022-08-28T12:15:00Z"
-  },
-  {
-    "name": "Yoga Mat",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Comfortable and durable yoga mat.",
+    "description": "Control your home's lighting with these smart light bulbs. They offer customizable colors, remote control, and energy efficiency, enhancing your home's ambiance.",
     "price": 29,
-    "category": "Fitness",
-    "rating": 4.3,
-    "createdAt": "2022-08-29T14:30:00Z"
-  },
-  {
-    "name": "Desk Lamp",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Brighten your workspace with this desk lamp.",
-    "price": 39,
-    "category": "Furniture",
-    "rating": 4.1,
-    "createdAt": "2022-08-30T16:45:00Z"
-  },
-  {
-    "name": "Waterproof Backpack",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Keep your belongings dry with this waterproof backpack.",
-    "price": 79,
-    "category": "Accessories",
-    "rating": 4.5,
-    "createdAt": "2022-08-31T09:00:00Z"
-  },
-  {
-    "name": "Digital Watch",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Stay on time with this digital watch.",
-    "price": 49,
-    "category": "Wearables",
+    "category": "Home Automation",
     "rating": 4.2,
-    "createdAt": "2022-09-01T10:15:00Z"
+    "createdAt": "2022-08-18T16:15:00Z",
+    "brand": "LightMaster"
   },
   {
-    "name": "Gaming Headset",
+    "name": "Electric Toothbrush",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Immerse yourself in gaming audio.",
-    "price": 99,
-    "category": "Gaming",
-    "rating": 4.6,
-    "createdAt": "2022-09-02T11:30:00Z"
-  },
-  {
-    "name": "Bluetooth Car Kit",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Add Bluetooth functionality to your car.",
-    "price": 59,
-    "category": "Automotive",
+    "description": "Achieve a cleaner, healthier smile with this electric toothbrush. It features multiple brushing modes, a long battery life, and a sleek design.",
+    "price": 79,
+    "category": "Personal Care",
     "rating": 4.3,
-    "createdAt": "2022-09-03T12:45:00Z"
+    "createdAt": "2022-08-19T18:30:00Z",
+    "brand": "SmileCare"
   },
   {
-    "name": "Smart Home Hub",
+    "name": "Portable Charger",
     "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Control all your smart devices from one hub.",
-    "price": 129,
-    "category": "Home Automation",
-    "rating": 4.5,
-    "createdAt": "2022-09-04T14:00:00Z"
-  },
-  {
-    "name": "Digital Piano",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Play beautiful music with this digital piano.",
-    "price": 499,
-    "category": "Musical Instruments",
-    "rating": 4.8,
-    "createdAt": "2022-09-05T15:15:00Z"
-  },
-  {
-    "name": "Electric Guitar",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Rock out with this electric guitar.",
-    "price": 399,
-    "category": "Musical Instruments",
-    "rating": 4.7,
-    "createdAt": "2022-09-06T16:30:00Z"
-  },
-  {
-    "name": "Graphic Drawing Tablet",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Unleash your creativity with this drawing tablet.",
-    "price": 249,
+    "description": "Keep your devices powered on the go with this portable charger. It offers fast charging, multiple ports, and a compact design, perfect for travel.",
+    "price": 49,
     "category": "Accessories",
-    "rating": 4.6,
-    "createdAt": "2022-09-07T17:45:00Z"
-  },
-  {
-    "name": "Smart Plug",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
-    "description": "Control your appliances remotely with this smart plug.",
-    "price": 29,
-    "category": "Home Automation",
-    "rating": 4.4,
-    "createdAt": "2022-09-08T09:00:00Z"
+    "rating": 4.5,
+    "createdAt": "2022-08-20T20:00:00Z",
+    "brand": "PowerBank"
   }
 ]
