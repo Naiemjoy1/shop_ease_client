@@ -1,0 +1,353 @@
+[
+  {
+    "name": "Smartphone X1",
+    "image": "https://example.com/smartphone_x1.jpg",
+    "description": "A powerful smartphone with a stunning display.",
+    "price": 699,
+    "category": "Electronics",
+    "rating": 4.5,
+    "createdAt": "2024-08-01T12:00:00Z"
+  },
+  {
+    "name": "Laptop Pro 15",
+    "image": "https://example.com/laptop_pro_15.jpg",
+    "description": "High-performance laptop with 16GB RAM.",
+    "price": 1299,
+    "category": "Electronics",
+    "rating": 4.7,
+    "createdAt": "2024-08-02T09:30:00Z"
+  },
+  {
+    "name": "Wireless Earbuds",
+    "image": "https://example.com/wireless_earbuds.jpg",
+    "description": "Compact and comfortable wireless earbuds.",
+    "price": 99,
+    "category": "Accessories",
+    "rating": 4.3,
+    "createdAt": "2024-08-03T15:45:00Z"
+  },
+  {
+    "name": "4K Ultra HD TV",
+    "image": "https://example.com/4k_tv.jpg",
+    "description": "Ultra HD television with vibrant colors.",
+    "price": 899,
+    "category": "Electronics",
+    "rating": 4.8,
+    "createdAt": "2024-08-04T17:20:00Z"
+  },
+  {
+    "name": "Bluetooth Speaker",
+    "image": "https://example.com/bluetooth_speaker.jpg",
+    "description": "Portable speaker with deep bass.",
+    "price": 129,
+    "category": "Accessories",
+    "rating": 4.4,
+    "createdAt": "2024-08-05T11:00:00Z"
+  },
+  {
+    "name": "Fitness Tracker",
+    "image": "https://example.com/fitness_tracker.jpg",
+    "description": "Track your health metrics with ease.",
+    "price": 59,
+    "category": "Wearables",
+    "rating": 4.1,
+    "createdAt": "2024-08-06T14:30:00Z"
+  },
+  {
+    "name": "Gaming Console Z",
+    "image": "https://example.com/gaming_console_z.jpg",
+    "description": "Next-gen gaming experience.",
+    "price": 499,
+    "category": "Gaming",
+    "rating": 4.9,
+    "createdAt": "2024-08-07T10:15:00Z"
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "image": "https://example.com/mechanical_keyboard.jpg",
+    "description": "Tactile feedback for efficient typing.",
+    "price": 89,
+    "category": "Accessories",
+    "rating": 4.6,
+    "createdAt": "2024-08-08T08:45:00Z"
+  },
+  {
+    "name": "Smartwatch Series 5",
+    "image": "https://example.com/smartwatch_5.jpg",
+    "description": "Stay connected and track fitness goals.",
+    "price": 249,
+    "category": "Wearables",
+    "rating": 4.5,
+    "createdAt": "2024-08-09T19:00:00Z"
+  },
+  {
+    "name": "DSLR Camera Alpha",
+    "image": "https://example.com/dslr_alpha.jpg",
+    "description": "Capture high-quality images.",
+    "price": 899,
+    "category": "Cameras",
+    "rating": 4.7,
+    "createdAt": "2024-08-10T13:10:00Z"
+  },
+  {
+    "name": "Running Shoes Pro",
+    "image": "https://example.com/running_shoes_pro.jpg",
+    "description": "Lightweight and durable running shoes.",
+    "price": 129,
+    "category": "Footwear",
+    "rating": 4.2,
+    "createdAt": "2024-08-11T15:00:00Z"
+  },
+  {
+    "name": "Leather Jacket",
+    "image": "https://example.com/leather_jacket.jpg",
+    "description": "Stylish and durable leather jacket.",
+    "price": 199,
+    "category": "Apparel",
+    "rating": 4.3,
+    "createdAt": "2024-08-12T16:30:00Z"
+  },
+  {
+    "name": "Electric Kettle",
+    "image": "https://example.com/electric_kettle.jpg",
+    "description": "Boil water quickly with this electric kettle.",
+    "price": 49,
+    "category": "Home Appliances",
+    "rating": 4.5,
+    "createdAt": "2024-08-13T07:45:00Z"
+  },
+  {
+    "name": "Office Chair Ergonomic",
+    "image": "https://example.com/office_chair.jpg",
+    "description": "Comfortable ergonomic office chair.",
+    "price": 159,
+    "category": "Furniture",
+    "rating": 4.4,
+    "createdAt": "2024-08-14T10:00:00Z"
+  },
+  {
+    "name": "Coffee Maker",
+    "image": "https://example.com/coffee_maker.jpg",
+    "description": "Brew fresh coffee every morning.",
+    "price": 89,
+    "category": "Home Appliances",
+    "rating": 4.1,
+    "createdAt": "2024-08-15T11:20:00Z"
+  },
+  {
+    "name": "Smart Refrigerator",
+    "image": "https://example.com/smart_refrigerator.jpg",
+    "description": "Keep your food fresh with smart features.",
+    "price": 1499,
+    "category": "Home Appliances",
+    "rating": 4.6,
+    "createdAt": "2024-08-16T12:40:00Z"
+  },
+  {
+    "name": "Digital SLR Camera",
+    "image": "https://example.com/digital_slr.jpg",
+    "description": "Capture memories in stunning detail.",
+    "price": 649,
+    "category": "Cameras",
+    "rating": 4.5,
+    "createdAt": "2024-08-17T14:10:00Z"
+  },
+  {
+    "name": "Mountain Bike",
+    "image": "https://example.com/mountain_bike.jpg",
+    "description": "Conquer trails with this durable mountain bike.",
+    "price": 349,
+    "category": "Sports",
+    "rating": 4.3,
+    "createdAt": "2024-08-18T16:30:00Z"
+  },
+  {
+    "name": "4K Action Camera",
+    "image": "https://example.com/action_camera.jpg",
+    "description": "Capture adventures in ultra HD.",
+    "price": 199,
+    "category": "Cameras",
+    "rating": 4.7,
+    "createdAt": "2024-08-19T08:00:00Z"
+  },
+  {
+    "name": "Electric Toothbrush",
+    "image": "https://example.com/electric_toothbrush.jpg",
+    "description": "Ensure clean and healthy teeth.",
+    "price": 79,
+    "category": "Health",
+    "rating": 4.2,
+    "createdAt": "2024-08-20T09:30:00Z"
+  },
+  {
+    "name": "Wireless Mouse",
+    "image": "https://example.com/wireless_mouse.jpg",
+    "description": "Smooth and responsive wireless mouse.",
+    "price": 39,
+    "category": "Accessories",
+    "rating": 4.4,
+    "createdAt": "2024-08-21T11:00:00Z"
+  },
+  {
+    "name": "Bluetooth Headphones",
+    "image": "https://example.com/bluetooth_headphones.jpg",
+    "description": "Comfortable headphones with rich sound.",
+    "price": 129,
+    "category": "Accessories",
+    "rating": 4.6,
+    "createdAt": "2024-08-22T13:45:00Z"
+  },
+  {
+    "name": "Electric Scooter",
+    "image": "https://example.com/electric_scooter.jpg",
+    "description": "Eco-friendly transportation option.",
+    "price": 299,
+    "category": "Transportation",
+    "rating": 4.3,
+    "createdAt": "2024-08-23T15:00:00Z"
+  },
+  {
+    "name": "Smart Thermostat",
+    "image": "https://example.com/smart_thermostat.jpg",
+    "description": "Control your home's temperature with ease.",
+    "price": 199,
+    "category": "Home Automation",
+    "rating": 4.5,
+    "createdAt": "2024-08-24T16:15:00Z"
+  },
+  {
+    "name": "Portable Charger",
+    "image": "https://example.com/portable_charger.jpg",
+    "description": "Keep your devices charged on the go.",
+    "price": 49,
+    "category": "Accessories",
+    "rating": 4.1,
+    "createdAt": "2024-08-25T17:30:00Z"
+  },
+  {
+    "name": "Noise Cancelling Headphones",
+    "image": "https://example.com/noise_cancelling_headphones.jpg",
+    "description": "Immerse yourself in music without distractions.",
+    "price": 199,
+    "category": "Accessories",
+    "rating": 4.7,
+    "createdAt": "2024-08-26T08:45:00Z"
+  },
+  {
+    "name": "Electric Shaver",
+    "image": "https://example.com/electric_shaver.jpg",
+    "description": "Get a smooth and comfortable shave.",
+    "price": 69,
+    "category": "Health",
+    "rating": 4.2,
+    "createdAt": "2024-08-27T10:00:00Z"
+  },
+  {
+    "name": "Smart Light Bulbs",
+    "image": "https://example.com/smart_light_bulbs.jpg",
+    "description": "Control your lighting with your smartphone.",
+    "price": 59,
+    "category": "Home Automation",
+    "rating": 4.4,
+    "createdAt": "2024-08-28T12:15:00Z"
+  },
+  {
+    "name": "Yoga Mat",
+    "image": "https://example.com/yoga_mat.jpg",
+    "description": "Comfortable and durable yoga mat.",
+    "price": 29,
+    "category": "Fitness",
+    "rating": 4.3,
+    "createdAt": "2024-08-29T14:30:00Z"
+  },
+  {
+    "name": "Desk Lamp",
+    "image": "https://example.com/desk_lamp.jpg",
+    "description": "Brighten your workspace with this desk lamp.",
+    "price": 39,
+    "category": "Furniture",
+    "rating": 4.1,
+    "createdAt": "2024-08-30T16:45:00Z"
+  },
+  {
+    "name": "Waterproof Backpack",
+    "image": "https://example.com/waterproof_backpack.jpg",
+    "description": "Keep your belongings dry with this waterproof backpack.",
+    "price": 79,
+    "category": "Accessories",
+    "rating": 4.5,
+    "createdAt": "2024-08-31T09:00:00Z"
+  },
+  {
+    "name": "Digital Watch",
+    "image": "https://example.com/digital_watch.jpg",
+    "description": "Stay on time with this digital watch.",
+    "price": 49,
+    "category": "Wearables",
+    "rating": 4.2,
+    "createdAt": "2024-09-01T10:15:00Z"
+  },
+  {
+    "name": "Gaming Headset",
+    "image": "https://example.com/gaming_headset.jpg",
+    "description": "Immerse yourself in gaming audio.",
+    "price": 99,
+    "category": "Gaming",
+    "rating": 4.6,
+    "createdAt": "2024-09-02T11:30:00Z"
+  },
+  {
+    "name": "Bluetooth Car Kit",
+    "image": "https://example.com/bluetooth_car_kit.jpg",
+    "description": "Add Bluetooth functionality to your car.",
+    "price": 59,
+    "category": "Automotive",
+    "rating": 4.3,
+    "createdAt": "2024-09-03T12:45:00Z"
+  },
+  {
+    "name": "Smart Home Hub",
+    "image": "https://example.com/smart_home_hub.jpg",
+    "description": "Control all your smart devices from one hub.",
+    "price": 129,
+    "category": "Home Automation",
+    "rating": 4.5,
+    "createdAt": "2024-09-04T14:00:00Z"
+  },
+  {
+    "name": "Digital Piano",
+    "image": "https://example.com/digital_piano.jpg",
+    "description": "Play beautiful music with this digital piano.",
+    "price": 499,
+    "category": "Musical Instruments",
+    "rating": 4.8,
+    "createdAt": "2024-09-05T15:15:00Z"
+  },
+  {
+    "name": "Electric Guitar",
+    "image": "https://example.com/electric_guitar.jpg",
+    "description": "Rock out with this electric guitar.",
+    "price": 399,
+    "category": "Musical Instruments",
+    "rating": 4.7,
+    "createdAt": "2024-09-06T16:30:00Z"
+  },
+  {
+    "name": "Graphic Drawing Tablet",
+    "image": "https://example.com/graphic_tablet.jpg",
+    "description": "Unleash your creativity with this drawing tablet.",
+    "price": 249,
+    "category": "Accessories",
+    "rating": 4.6,
+    "createdAt": "2024-09-07T17:45:00Z"
+  },
+  {
+    "name": "Smart Plug",
+    "image": "https://example.com/smart_plug.jpg",
+    "description": "Control your appliances remotely with this smart plug.",
+    "price": 29,
+    "category": "Home Automation",
+    "rating": 4.4,
+    "createdAt": "2024-09-08T09:00:00Z"
+  }
+]
