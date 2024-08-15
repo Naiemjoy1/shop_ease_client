@@ -3,6 +3,7 @@ import SocialLogin from "../../Shared/SocialLogin/SocialLogin";
 import { useForm } from "react-hook-form";
 import { useContext } from "react";
 import { AuthContext } from "../../Components/Provider/AuthProvider";
+import useAuth from "../../Hooks/useAuth";
 
 const SignUp = () => {
   const {
@@ -11,7 +12,7 @@ const SignUp = () => {
     formState: { errors },
   } = useForm();
 
-  const { createUser } = useContext(AuthContext);
+  const { createUser } = useAuth();
 
   const onSubmit = (data) => {
     createUser(data.email, data.password)
