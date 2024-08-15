@@ -1,6 +1,7 @@
 import { Rating } from "@smastrom/react-rating";
 
 import "@smastrom/react-rating/style.css";
+import { MdDelete } from "react-icons/md";
 
 const ProductsCard = ({ product }) => {
   const { name, image, description, price, category, rating, createdAt } =
@@ -14,7 +15,7 @@ const ProductsCard = ({ product }) => {
   });
 
   return (
-    <div className="card bg-base-100 shadow-xl h-full flex flex-col">
+    <div className="card bg-base-100 shadow-xl h-full flex flex-col relative">
       <figure>
         <img src={image} alt={name} className="w-full h-40 object-cover" />
       </figure>
@@ -73,6 +74,11 @@ const ProductsCard = ({ product }) => {
             </label>
           </div>
         </div>
+      </div>
+      <div class="absolute top-4 right-4 text-red-600 text-2xl">
+        <button>
+          <MdDelete />
+        </button>
       </div>
     </div>
   );

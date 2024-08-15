@@ -18,6 +18,16 @@ const Navbar = () => {
           <a>Home</a>
         </li>
       </NavLink>
+      {user ? (
+        <NavLink to="/dashboard/products">
+          <li>
+            <a>Dashboard</a>
+          </li>
+        </NavLink>
+      ) : (
+        ""
+      )}
+
       <NavLink>
         <li>
           <a>About</a>

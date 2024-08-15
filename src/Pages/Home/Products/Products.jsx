@@ -11,7 +11,7 @@ const Products = () => {
   const [brands, setBrands] = useState([]);
   const [categories, setCategories] = useState([]);
   const [searchQuery, setSearchQuery] = useState("");
-  const [itemsPerPage, setItemsPerPage] = useState(5);
+  const [itemsPerPage, setItemsPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(0);
 
   useEffect(() => {
@@ -100,8 +100,8 @@ const Products = () => {
 
   return (
     <div>
-      <div className="flex justify-between gap-8">
-        <div className="mb-4 flex flex-col gap-4 w-1/4">
+      <div className="lg:flex justify-between gap-8">
+        <div className="mb-4 flex flex-col gap-4 lg:w-1/4">
           <input
             type="text"
             placeholder="Search for products"
@@ -110,7 +110,7 @@ const Products = () => {
             className="p-2 border rounded w-full"
           />
 
-          <div className="space-y-4">
+          <div className="space-y-4 grid grid-cols-2 items-center gap-4">
             <select
               value={sortCriteria}
               onChange={handleSortChange}
@@ -161,8 +161,8 @@ const Products = () => {
           </div>
         </div>
 
-        <div className="w-9/12">
-          <div className="grid grid-cols-3 gap-5">
+        <div className="lg:w-9/12">
+          <div className="grid lg:grid-cols-3 grid-cols-2 gap-5">
             {filteredProducts.map((product) => (
               <ProductsCard key={product._id} product={product} />
             ))}
@@ -194,7 +194,6 @@ const Products = () => {
               onChange={handleItemsPerPage}
               className="ml-4"
             >
-              <option value="5">5</option>
               <option value="10">10</option>
               <option value="20">20</option>
               <option value="50">50</option>
