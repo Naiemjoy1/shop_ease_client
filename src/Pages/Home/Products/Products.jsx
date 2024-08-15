@@ -12,7 +12,7 @@ const Products = () => {
   const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
-    fetch("/product.json")
+    fetch("http://localhost:3000/products")
       .then((res) => res.json())
       .then((data) => {
         setProducts(data);
@@ -133,7 +133,7 @@ const Products = () => {
 
       <div className="grid grid-cols-3 justify-between gap-5 w-9/12">
         {filteredProducts.map((product) => (
-          <ProductsCard key={product.id} product={product} />
+          <ProductsCard key={product._id} product={product} />
         ))}
       </div>
     </div>

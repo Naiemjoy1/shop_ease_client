@@ -1,3 +1,7 @@
+import { Rating } from "@smastrom/react-rating";
+
+import "@smastrom/react-rating/style.css";
+
 const ProductsCard = ({ product }) => {
   const { name, image, description, price, category, rating, createdAt } =
     product;
@@ -15,10 +19,13 @@ const ProductsCard = ({ product }) => {
         <img src={image} alt={name} className="w-full h-40 object-cover" />
       </figure>
       <div className="card-body p-5 flex flex-col justify-between">
-        <div>
+        <div className=" space-y-2">
           <h2 className="card-title">{name}</h2>
           <p>Price: ${price}</p>
-          <p>Rating: {rating}</p>
+          <p className="flex items-center">
+            <span className="font-bold">Rating: </span>
+            <Rating style={{ maxWidth: 180 }} value={rating} readOnly />
+          </p>
         </div>
         <div className="card-actions justify-end mt-2">
           {/* The button to open modal */}
@@ -37,7 +44,7 @@ const ProductsCard = ({ product }) => {
               <figure>
                 <img src={image} alt={name} className="w-full" />
               </figure>
-              <div>
+              <div className=" space-y-4">
                 <p className="card-title">Model: {name}</p>
                 <p>
                   <span className="font-bold">Description: </span>
@@ -48,9 +55,17 @@ const ProductsCard = ({ product }) => {
                   {category}
                 </p>
                 <p>
+                  <span className="font-bold">Price: </span>${price}
+                </p>
+                <p className="flex items-center">
+                  <span className="font-bold">Rating: </span>
+                  <Rating style={{ maxWidth: 180 }} value={rating} readOnly />
+                </p>
+                <p>
                   <span className="font-bold">Release Date: </span>
                   {formattedDate}
                 </p>
+                <button className="btn btn-sm btn-primary">Buy Now</button>
               </div>
             </div>
             <label className="modal-backdrop" htmlFor={`modal-${name}`}>
