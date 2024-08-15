@@ -1,7 +1,8 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import SocialLogin from "../../Shared/SocialLogin/SocialLogin";
 import { useForm } from "react-hook-form";
 import useAuth from "../../Hooks/useAuth";
+import Swal from "sweetalert2";
 
 const SignUp = () => {
   const {
@@ -11,12 +12,21 @@ const SignUp = () => {
   } = useForm();
 
   const { createUser } = useAuth();
+  const navigate = useNavigate();
 
   const onSubmit = (data) => {
     createUser(data.email, data.password)
       .then((result) => {
         const loggedUser = result.user;
         console.log(loggedUser);
+        Swal.fire({
+          position: "top-end",
+          icon: "success",
+          title: "Your work has been saved",
+          showConfirmButton: false,
+          timer: 1500,
+        });
+        navigate("/");
       })
       .catch((error) => {
         console.error("Error during signUp", error);
