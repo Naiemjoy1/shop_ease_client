@@ -70,21 +70,21 @@ const Products = () => {
     });
 
   return (
-    <div>
-      <div className="mb-4 flex flex-col gap-4">
+    <div className="flex justify-between gap-8">
+      <div className="mb-4 flex flex-col gap-4 w-1/4">
         <input
           type="text"
           placeholder="Search for products"
           value={searchQuery}
           onChange={handleSearchChange}
-          className="p-2 border rounded"
+          className="p-2 border rounded w-full"
         />
 
-        <div className="flex justify-between">
+        <div className=" space-y-4">
           <select
             value={sortCriteria}
             onChange={handleSortChange}
-            className="p-2 border rounded"
+            className="p-2 border rounded w-full"
           >
             <option value="default">Sort By</option>
             <option value="price-low-high">Price: Low to High</option>
@@ -95,7 +95,7 @@ const Products = () => {
           <select
             value={brand}
             onChange={handleBrandChange}
-            className="p-2 border rounded"
+            className="p-2 border rounded w-full"
           >
             <option value="all">All Brands</option>
             {brands.map((brand) => (
@@ -108,7 +108,7 @@ const Products = () => {
           <select
             value={category}
             onChange={handleCategoryChange}
-            className="p-2 border rounded"
+            className="p-2 border rounded w-full"
           >
             <option value="all">All Categories</option>
             {categories.map((category) => (
@@ -121,7 +121,7 @@ const Products = () => {
           <select
             value={priceRange}
             onChange={handlePriceRangeChange}
-            className="p-2 border rounded"
+            className="p-2 border rounded w-full"
           >
             <option value="all">All Price Ranges</option>
             <option value="low">Low (0 - 50)</option>
@@ -131,7 +131,7 @@ const Products = () => {
         </div>
       </div>
 
-      <div className="grid grid-cols-3 justify-between gap-6 mt-10">
+      <div className="grid grid-cols-3 justify-between gap-5 w-9/12">
         {filteredProducts.map((product) => (
           <ProductsCard key={product.id} product={product} />
         ))}
