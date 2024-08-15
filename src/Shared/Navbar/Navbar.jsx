@@ -1,17 +1,24 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const navLink = (
     <>
-      <li>
-        <a>Home</a>
-      </li>
-      <li>
-        <a>About</a>
-      </li>
-      <li>
-        <a>Contact</a>
-      </li>
+      <NavLink to="/">
+        <li>
+          <a>Home</a>
+        </li>
+      </NavLink>
+      <NavLink>
+        <li>
+          <a>About</a>
+        </li>
+      </NavLink>
+      <NavLink>
+        <li>
+          <a>Contact</a>
+        </li>
+      </NavLink>
     </>
   );
   return (
@@ -48,7 +55,9 @@ const Navbar = () => {
           <ul className="menu menu-horizontal px-1">{navLink}</ul>
         </div>
         <div className="navbar-end">
-          <a className="btn btn-sm btn-primary">Login</a>
+          <Link to="/signin">
+            <a className="btn btn-sm btn-primary">Login</a>
+          </Link>
         </div>
       </div>
     </div>
