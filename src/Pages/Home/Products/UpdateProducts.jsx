@@ -41,6 +41,7 @@ const UpdateProducts = () => {
           showConfirmButton: false,
           timer: 1500,
         });
+        navigate("/");
       }
     } catch (error) {
       console.error("Error updating product:", error);
