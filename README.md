@@ -60,13 +60,12 @@ You can view the live application here: [ShopEase Live](https://shopease-scic.we
 4. Create a `.env.local` file in the root directory and add the following environment variables:
 
    ```plaintext
-   VITE_apiKey=AIzaSyA-Vod4kU8wUM8Z2JfIA_RRFrllGnbHvkc
-   VITE_authDomain=shopease-scic.firebaseapp.com
-   VITE_projectId=shopease-scic
-   VITE_storageBucket=shopease-scic.appspot.com
-   VITE_messagingSenderId=451577266720
-   VITE_appId=1:451577266720:web:0488387e43fe07fd0b3245
-   VITE_IMAGE_UPLOAD_TOKEN=3a5bfb27f1b05642a911079c005d84de
+   REACT_APP_FIREBASE_API_KEY=<your-api-key>
+   REACT_APP_FIREBASE_AUTH_DOMAIN=<your-auth-domain>
+   REACT_APP_FIREBASE_PROJECT_ID=<your-project-id>
+   REACT_APP_FIREBASE_STORAGE_BUCKET=<your-storage-bucket>
+   REACT_APP_FIREBASE_MESSAGING_SENDER_ID=<your-sender-id>
+   REACT_APP_FIREBASE_APP_ID=<your-app-id>
    ```
 
 5. Run the development server:
