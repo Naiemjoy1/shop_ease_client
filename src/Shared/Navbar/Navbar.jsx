@@ -27,11 +27,15 @@ const Navbar = () => {
       ) : (
         ""
       )}
-      <NavLink to="/action">
-        <li>
-          <a>Action</a>
-        </li>
-      </NavLink>
+      {user ? (
+        <NavLink to="/action">
+          <li>
+            <a>Action</a>
+          </li>
+        </NavLink>
+      ) : (
+        ""
+      )}
     </>
   );
 

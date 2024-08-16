@@ -29,17 +29,29 @@ export const router = createBrowserRouter([
       },
       {
         path: "/action/products/:id",
-        element: <UpdateProducts></UpdateProducts>,
+        element: (
+          <PrivateRoute>
+            <UpdateProducts></UpdateProducts>
+          </PrivateRoute>
+        ),
         loader: ({ params }) =>
           fetch(`http://localhost:3000/products/${params.id}`),
       },
       {
         path: "/addproducts",
-        element: <AddProduct></AddProduct>,
+        element: (
+          <PrivateRoute>
+            <AddProduct></AddProduct>
+          </PrivateRoute>
+        ),
       },
       {
         path: "/action",
-        element: <Action></Action>,
+        element: (
+          <PrivateRoute>
+            <Action></Action>
+          </PrivateRoute>
+        ),
       },
     ],
   },
