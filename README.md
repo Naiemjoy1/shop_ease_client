@@ -1,8 +1,239 @@
-# React + Vite
+Here’s a detailed README for both the frontend and backend repositories based on the provided requirements and functionalities:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+### **Frontend README**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+````markdown
+# ShopEase - Frontend
+
+## Overview
+
+ShopEase is a single-page application (SPA) built with React.js that allows users to browse, search, filter, sort, and paginate through products. The application uses Firebase for user authentication and integrates with a backend API for product management.
+
+## Live Website
+
+You can view the live application here: [ShopEase Live](https://shopease-scic.web.app/)
+
+## Features
+
+- **Search:** Search for products by name.
+- **Filter:** Filter products by brand, category, and price range.
+- **Sort:** Sort products by price (low to high, high to low) and date added (newest first).
+- **Pagination:** Navigate through product pages with Next and Previous buttons.
+- **Authentication:** Sign in using Google or Email/Password via Firebase.
+- **Responsive Design:** Mobile-first design with fixed-size product cards.
+- **UI Components:** Navbar with logo and routes, Footer with necessary links.
+
+## Technologies
+
+- **React.js** - Frontend framework
+- **Firebase** - Authentication and storage
+- **Axios** - HTTP requests
+- **React Query** - Data fetching and state management
+- **React Hook Form** - Form handling
+- **SweetAlert2** - Alerts
+- **React Rating** - Product ratings
+- **LocalForage** - Local storage
+- **Match Sorter** - Sorting and filtering
+
+## Setup Instructions
+
+### Prerequisites
+
+- Node.js (v18 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Naiemjoy1/shop_ease_client
+   ```
+````
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd shop_ease_client
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a `.env.local` file in the root directory and add the following environment variables:
+
+   ```plaintext
+   VITE_apiKey=AIzaSyA-Vod4kU8wUM8Z2JfIA_RRFrllGnbHvkc
+   VITE_authDomain=shopease-scic.firebaseapp.com
+   VITE_projectId=shopease-scic
+   VITE_storageBucket=shopease-scic.appspot.com
+   VITE_messagingSenderId=451577266720
+   VITE_appId=1:451577266720:web:0488387e43fe07fd0b3245
+   VITE_IMAGE_UPLOAD_TOKEN=3a5bfb27f1b05642a911079c005d84de
+   ```
+
+5. Run the development server:
+   ```bash
+   npm start
+   ```
+
+### Project Structure
+
+- `src/` - Source code
+  - `components/` - Reusable React components
+  - `pages/` - Page components
+  - `services/` - API service calls
+  - `contexts/` - React contexts for state management
+  - `firebase/` - Firebase configuration and authentication logic
+  - `App.js` - Main application component
+- `public/` - Public assets
+
+### Running Tests
+
+- Add test cases for your components and services.
+- Run tests using:
+  ```bash
+  npm test
+  ```
+
+### Deployment
+
+- To build the project for production:
+  ```bash
+  npm run build
+  ```
+- Deploy the `build/` directory to your hosting provider.
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Repository Links
+
+- [Frontend Repository](https://github.com/Naiemjoy1/shop_ease_client)
+- [Backend Repository](https://github.com/Naiemjoy1/shop_ease_server)
+
+````
+
+---
+
+### **Backend README**
+
+```markdown
+# ShopEase - Backend
+
+## Overview
+The backend of ShopEase is built with Node.js and Express.js. It provides APIs for managing product data with features like searching, filtering, sorting, and pagination. Firebase is used for user authentication.
+
+## Features
+- **APIs:** RESTful endpoints for product management
+- **Pagination:** Efficient loading of products with page navigation
+- **Search:** Search products by name
+- **Filter:** Filter products by brand, category, and price range
+- **Sort:** Sort products by price and date added
+- **Authentication:** Firebase authentication for Google and Email/Password
+- **Dummy Data:** Includes at least 40 products
+
+## Technologies
+- **Node.js** - Runtime environment
+- **Express.js** - Web framework
+- **MongoDB** - Database
+- **Mongoose** - ODM for MongoDB
+- **Firebase** - Authentication
+
+## Setup Instructions
+
+### Prerequisites
+- Node.js (v18 or higher)
+- MongoDB instance or MongoDB Atlas
+- Firebase project credentials
+
+### Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Naiemjoy1/shop_ease_server
+````
+
+2. Navigate to the project directory:
+
+   ```bash
+   cd shop_ease_server
+   ```
+
+3. Install dependencies:
+
+   ```bash
+   npm install
+   ```
+
+4. Create a `.env` file in the root directory and add the following environment variables:
+
+   ```plaintext
+   MONGO_URI=<your-mongodb-uri>
+   FIREBASE_API_KEY=AIzaSyA-Vod4kU8wUM8Z2JfIA_RRFrllGnbHvkc
+   FIREBASE_AUTH_DOMAIN=shopease-scic.firebaseapp.com
+   FIREBASE_PROJECT_ID=shopease-scic
+   FIREBASE_STORAGE_BUCKET=shopease-scic.appspot.com
+   FIREBASE_MESSAGING_SENDER_ID=451577266720
+   FIREBASE_APP_ID=1:451577266720:web:0488387e43fe07fd0b3245
+   ```
+
+5. Start the server:
+   ```bash
+   npm start
+   ```
+
+### Project Structure
+
+- `models/` - Mongoose models for MongoDB
+- `routes/` - API route handlers
+- `controllers/` - Business logic for API routes
+- `config/` - Configuration files (e.g., Firebase, MongoDB)
+- `utils/` - Utility functions
+- `server.js` - Main server file
+
+### Running Tests
+
+- Add test cases for your API endpoints.
+- Run tests using:
+  ```bash
+  npm test
+  ```
+
+### Deployment
+
+- To deploy the backend, follow the deployment guidelines for your hosting provider (e.g., Heroku, AWS).
+
+## Contributing
+
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Commit your changes (`git commit -am 'Add new feature'`).
+4. Push to the branch (`git push origin feature/your-feature`).
+5. Create a new Pull Request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Repository Links
+
+- [Frontend Repository](https://github.com/Naiemjoy1/shop_ease_client)
+- [Backend Repository](https://github.com/Naiemjoy1/shop_ease_server)
+
+```
+
+Feel free to adjust any details to better fit your specific project setup or preferences!
+```
