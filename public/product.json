@@ -10,6 +10,36 @@
     "brand": "TechMakers"
   },
   {
+    "name": "Smartphone X1",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
+    "description": "A powerful smartphone with a stunning display, offering a seamless experience with its cutting-edge processor, advanced camera system, and long-lasting battery life. Perfect for gaming, photography, and everyday use.",
+    "price": 699,
+    "category": "Accessories",
+    "rating": 4.5,
+    "createdAt": "2022-08-01T12:00:00Z",
+    "brand": "TechMakers"
+  },
+  {
+    "name": "Smartphone X1",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
+    "description": "A powerful smartphone with a stunning display, offering a seamless experience with its cutting-edge processor, advanced camera system, and long-lasting battery life. Perfect for gaming, photography, and everyday use.",
+    "price": 699,
+    "category": "Wearables",
+    "rating": 4.5,
+    "createdAt": "2022-08-01T12:00:00Z",
+    "brand": "TechMakers"
+  },
+  {
+    "name": "Smartphone X1",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
+    "description": "A powerful smartphone with a stunning display, offering a seamless experience with its cutting-edge processor, advanced camera system, and long-lasting battery life. Perfect for gaming, photography, and everyday use.",
+    "price": 699,
+    "category": "Gaming",
+    "rating": 4.5,
+    "createdAt": "2022-08-01T12:00:00Z",
+    "brand": "TechMakers"
+  },
+  {
     "name": "Laptop Pro 15",
     "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "High-performance laptop with 16GB RAM, designed for professionals and creatives. It features a sleek design, vivid display, and robust processing power for multitasking, video editing, and gaming.",
@@ -20,11 +50,41 @@
     "brand": "EliteComputers"
   },
   {
+    "name": "Laptop Pro 15",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
+    "description": "High-performance laptop with 16GB RAM, designed for professionals and creatives. It features a sleek design, vivid display, and robust processing power for multitasking, video editing, and gaming.",
+    "price": 1299,
+    "category": "Accessories",
+    "rating": 4.7,
+    "createdAt": "2022-08-02T09:30:00Z",
+    "brand": "EliteComputers"
+  },
+  {
+    "name": "Laptop Pro 15",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
+    "description": "High-performance laptop with 16GB RAM, designed for professionals and creatives. It features a sleek design, vivid display, and robust processing power for multitasking, video editing, and gaming.",
+    "price": 1299,
+    "category": "Wearables",
+    "rating": 4.7,
+    "createdAt": "2022-08-02T09:30:00Z",
+    "brand": "EliteComputers"
+  },
+  {
     "name": "Wireless Earbuds",
     "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Compact and comfortable wireless earbuds with superior sound quality, noise-cancellation features, and a long-lasting battery. Ideal for music lovers on the go.",
     "price": 99,
     "category": "Accessories",
+    "rating": 4.3,
+    "createdAt": "2022-08-03T15:45:00Z",
+    "brand": "SoundWave"
+  },
+  {
+    "name": "Wireless Earbuds",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
+    "description": "Compact and comfortable wireless earbuds with superior sound quality, noise-cancellation features, and a long-lasting battery. Ideal for music lovers on the go.",
+    "price": 99,
+    "category": "Electronics",
     "rating": 4.3,
     "createdAt": "2022-08-03T15:45:00Z",
     "brand": "SoundWave"

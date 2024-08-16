@@ -32,6 +32,7 @@ const AddProduct = () => {
           price: parseFloat(data.price),
           category: data.category,
           rating: parseFloat(data.rating),
+          brand: data.brand, // Add the brand field here
           image: res.data.data.display_url,
         };
 
@@ -61,6 +62,7 @@ const AddProduct = () => {
   return (
     <div className="container mx-auto my-10">
       <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
+        {/* Name Field */}
         <div>
           <label htmlFor="name" className="block font-bold">
             Name:
@@ -74,6 +76,7 @@ const AddProduct = () => {
           {errors.name && <p className="text-red-500">{errors.name.message}</p>}
         </div>
 
+        {/* Description Field */}
         <div>
           <label htmlFor="description" className="block font-bold">
             Description:
@@ -89,6 +92,8 @@ const AddProduct = () => {
             <p className="text-red-500">{errors.description.message}</p>
           )}
         </div>
+
+        {/* Price Field */}
         <div>
           <label htmlFor="price" className="block font-bold">
             Price:
@@ -106,6 +111,8 @@ const AddProduct = () => {
             <p className="text-red-500">{errors.price.message}</p>
           )}
         </div>
+
+        {/* Category Field */}
         <div>
           <label htmlFor="category" className="block font-bold">
             Category:
@@ -120,6 +127,8 @@ const AddProduct = () => {
             <p className="text-red-500">{errors.category.message}</p>
           )}
         </div>
+
+        {/* Rating Field */}
         <div>
           <label htmlFor="rating" className="block font-bold">
             Rating:
@@ -142,6 +151,24 @@ const AddProduct = () => {
             <p className="text-red-500">{errors.rating.message}</p>
           )}
         </div>
+
+        {/* Brand Field */}
+        <div>
+          <label htmlFor="brand" className="block font-bold">
+            Brand:
+          </label>
+          <input
+            type="text"
+            id="brand"
+            {...register("brand", { required: "Brand is required" })}
+            className="input input-bordered w-full"
+          />
+          {errors.brand && (
+            <p className="text-red-500">{errors.brand.message}</p>
+          )}
+        </div>
+
+        {/* Image Upload Field */}
         <div className="form-control">
           <label className="label">
             <span className="label-text"></span>
@@ -154,6 +181,8 @@ const AddProduct = () => {
           />
           {errors.image && <span>This field is required</span>}
         </div>
+
+        {/* Submit Button */}
         <div className="flex justify-end">
           <button type="submit" className="btn btn-primary">
             Add Product
