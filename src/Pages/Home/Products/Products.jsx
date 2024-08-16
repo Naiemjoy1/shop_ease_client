@@ -14,25 +14,25 @@ const Products = () => {
   const [itemsPerPage, setItemsPerPage] = useState(10);
   const [currentPage, setCurrentPage] = useState(0);
 
+  const fetchProducts = async () => {
+    const res = await fetch(
+      `http://localhost:3000/products?page=${currentPage}&size=${itemsPerPage}&search=${searchQuery}&sort=${sortCriteria}&brand=${brand}&category=${category}&priceRange=${priceRange}`
+    );
+    const data = await res.json();
+    setProducts(data.products);
+    setTotalProducts(data.totalProducts);
+
+    const uniqueBrands = [
+      ...new Set(data.products.map((product) => product.brand)),
+    ];
+    const uniqueCategories = [
+      ...new Set(data.products.map((product) => product.category)),
+    ];
+    setBrands(uniqueBrands);
+    setCategories(uniqueCategories);
+  };
+
   useEffect(() => {
-    const fetchProducts = async () => {
-      const res = await fetch(
-        `http://localhost:3000/products?page=${currentPage}&size=${itemsPerPage}&search=${searchQuery}&sort=${sortCriteria}&brand=${brand}&category=${category}&priceRange=${priceRange}`
-      );
-      const data = await res.json();
-      setProducts(data.products);
-      setTotalProducts(data.totalProducts);
-
-      const uniqueBrands = [
-        ...new Set(data.products.map((product) => product.brand)),
-      ];
-      const uniqueCategories = [
-        ...new Set(data.products.map((product) => product.category)),
-      ];
-      setBrands(uniqueBrands);
-      setCategories(uniqueCategories);
-    };
-
     fetchProducts();
   }, [
     currentPage,
@@ -46,22 +46,27 @@ const Products = () => {
 
   const handleSortChange = (e) => {
     setSortCriteria(e.target.value);
+    setCurrentPage(0); // Reset to first page on filter change
   };
 
   const handleBrandChange = (e) => {
     setBrand(e.target.value);
+    setCurrentPage(0); // Reset to first page on filter change
   };
 
   const handleCategoryChange = (e) => {
     setCategory(e.target.value);
+    setCurrentPage(0); // Reset to first page on filter change
   };
 
   const handlePriceRangeChange = (e) => {
     setPriceRange(e.target.value);
+    setCurrentPage(0); // Reset to first page on filter change
   };
 
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value.toLowerCase());
+    setCurrentPage(0); // Reset to first page on filter change
   };
 
   const numberOfPages = Math.ceil(totalProducts / itemsPerPage);
@@ -81,7 +86,7 @@ const Products = () => {
 
   const handleItemsPerPage = (e) => {
     setItemsPerPage(parseInt(e.target.value));
-    setCurrentPage(0);
+    setCurrentPage(0); // Reset to first page on items per page change
   };
 
   return (

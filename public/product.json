@@ -1,7 +1,7 @@
 [
   {
     "name": "Smartphone X1",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "A powerful smartphone with a stunning display, offering a seamless experience with its cutting-edge processor, advanced camera system, and long-lasting battery life. Perfect for gaming, photography, and everyday use.",
     "price": 699,
     "category": "Electronics",
@@ -11,7 +11,7 @@
   },
   {
     "name": "Laptop Pro 15",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "High-performance laptop with 16GB RAM, designed for professionals and creatives. It features a sleek design, vivid display, and robust processing power for multitasking, video editing, and gaming.",
     "price": 1299,
     "category": "Electronics",
@@ -21,7 +21,7 @@
   },
   {
     "name": "Wireless Earbuds",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Compact and comfortable wireless earbuds with superior sound quality, noise-cancellation features, and a long-lasting battery. Ideal for music lovers on the go.",
     "price": 99,
     "category": "Accessories",
@@ -31,7 +31,7 @@
   },
   {
     "name": "4K Ultra HD TV",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Experience stunning visuals with this Ultra HD television. It offers vibrant colors, deep contrast, and smart TV capabilities for an immersive viewing experience.",
     "price": 899,
     "category": "Electronics",
@@ -41,7 +41,7 @@
   },
   {
     "name": "Bluetooth Speaker",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Portable speaker with deep bass and crystal-clear sound, perfect for parties, outdoor adventures, and home entertainment. It features long battery life and a durable design.",
     "price": 129,
     "category": "Accessories",
@@ -51,7 +51,7 @@
   },
   {
     "name": "Fitness Tracker",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Track your health metrics with ease using this sleek fitness tracker. It monitors your heart rate, steps, calories burned, and sleep patterns, keeping you motivated on your fitness journey.",
     "price": 59,
     "category": "Wearables",
@@ -61,7 +61,7 @@
   },
   {
     "name": "Gaming Console Z",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Next-gen gaming experience with ultra-fast load times, breathtaking graphics, and a wide selection of games. Perfect for hardcore gamers and casual players alike.",
     "price": 499,
     "category": "Gaming",
@@ -71,7 +71,7 @@
   },
   {
     "name": "Mechanical Keyboard",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Tactile feedback for efficient typing, with customizable RGB lighting, durable key switches, and ergonomic design. Ideal for gamers and professionals.",
     "price": 89,
     "category": "Accessories",
@@ -81,7 +81,7 @@
   },
   {
     "name": "Smartwatch Series 5",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Stay connected and track fitness goals with this smartwatch. It offers a sleek design, health monitoring, notifications, and various apps to enhance your daily life.",
     "price": 249,
     "category": "Wearables",
@@ -91,7 +91,7 @@
   },
   {
     "name": "DSLR Camera Alpha",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Capture high-quality images with this DSLR camera. It features a powerful sensor, fast autofocus, and a variety of lenses, perfect for both amateurs and professionals.",
     "price": 899,
     "category": "Cameras",
@@ -101,7 +101,7 @@
   },
   {
     "name": "Running Shoes Pro",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Lightweight and durable running shoes designed for optimal performance. They offer excellent cushioning, support, and grip, perfect for long runs and training sessions.",
     "price": 129,
     "category": "Footwear",
@@ -111,7 +111,7 @@
   },
   {
     "name": "Leather Jacket",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Stylish and durable leather jacket with a classic design. It offers warmth, comfort, and a touch of rugged elegance, perfect for any season.",
     "price": 199,
     "category": "Apparel",
@@ -121,7 +121,7 @@
   },
   {
     "name": "Electric Kettle",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Boil water quickly with this electric kettle. It features a sleek design, fast boiling time, and safety features, making it an essential kitchen appliance.",
     "price": 49,
     "category": "Home Appliances",
@@ -131,7 +131,7 @@
   },
   {
     "name": "Office Chair Ergonomic",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Comfortable ergonomic office chair designed to support long hours of work. It features adjustable height, lumbar support, and a breathable mesh back.",
     "price": 159,
     "category": "Furniture",
@@ -141,7 +141,7 @@
   },
   {
     "name": "Coffee Maker",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Brew fresh coffee every morning with this easy-to-use coffee maker. It offers various brewing options, a sleek design, and easy cleanup.",
     "price": 89,
     "category": "Home Appliances",
@@ -151,7 +151,7 @@
   },
   {
     "name": "Smart Refrigerator",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Keep your food fresh with smart features like temperature control, energy efficiency, and a spacious interior. Perfect for modern kitchens.",
     "price": 1499,
     "category": "Home Appliances",
@@ -161,7 +161,7 @@
   },
   {
     "name": "Digital SLR Camera",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Capture memories in stunning detail with this digital SLR camera. It offers a high-resolution sensor, versatile lenses, and advanced features for professional-quality photos.",
     "price": 999,
     "category": "Cameras",
@@ -171,7 +171,7 @@
   },
   {
     "name": "Smart Light Bulbs",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Control your home's lighting with these smart light bulbs. They offer customizable colors, remote control, and energy efficiency, enhancing your home's ambiance.",
     "price": 29,
     "category": "Home Automation",
@@ -181,7 +181,7 @@
   },
   {
     "name": "Electric Toothbrush",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Achieve a cleaner, healthier smile with this electric toothbrush. It features multiple brushing modes, a long battery life, and a sleek design.",
     "price": 79,
     "category": "Personal Care",
@@ -191,7 +191,7 @@
   },
   {
     "name": "Portable Charger",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Keep your devices powered on the go with this portable charger. It offers fast charging, multiple ports, and a compact design, perfect for travel.",
     "price": 49,
     "category": "Accessories",
@@ -201,7 +201,7 @@
   },
   {
     "name": "Smartphone X1",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "A powerful smartphone with a stunning display, offering a seamless experience with its cutting-edge processor, advanced camera system, and long-lasting battery life. Perfect for gaming, photography, and everyday use.",
     "price": 699,
     "category": "Electronics",
@@ -211,7 +211,7 @@
   },
   {
     "name": "Laptop Pro 15",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "High-performance laptop with 16GB RAM, designed for professionals and creatives. It features a sleek design, vivid display, and robust processing power for multitasking, video editing, and gaming.",
     "price": 1299,
     "category": "Electronics",
@@ -221,7 +221,7 @@
   },
   {
     "name": "Wireless Earbuds",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Compact and comfortable wireless earbuds with superior sound quality, noise-cancellation features, and a long-lasting battery. Ideal for music lovers on the go.",
     "price": 99,
     "category": "Accessories",
@@ -231,7 +231,7 @@
   },
   {
     "name": "4K Ultra HD TV",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Experience stunning visuals with this Ultra HD television. It offers vibrant colors, deep contrast, and smart TV capabilities for an immersive viewing experience.",
     "price": 899,
     "category": "Electronics",
@@ -241,7 +241,7 @@
   },
   {
     "name": "Bluetooth Speaker",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Portable speaker with deep bass and crystal-clear sound, perfect for parties, outdoor adventures, and home entertainment. It features long battery life and a durable design.",
     "price": 129,
     "category": "Accessories",
@@ -251,7 +251,7 @@
   },
   {
     "name": "Fitness Tracker",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Track your health metrics with ease using this sleek fitness tracker. It monitors your heart rate, steps, calories burned, and sleep patterns, keeping you motivated on your fitness journey.",
     "price": 59,
     "category": "Wearables",
@@ -261,7 +261,7 @@
   },
   {
     "name": "Gaming Console Z",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Next-gen gaming experience with ultra-fast load times, breathtaking graphics, and a wide selection of games. Perfect for hardcore gamers and casual players alike.",
     "price": 499,
     "category": "Gaming",
@@ -271,7 +271,7 @@
   },
   {
     "name": "Mechanical Keyboard",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Tactile feedback for efficient typing, with customizable RGB lighting, durable key switches, and ergonomic design. Ideal for gamers and professionals.",
     "price": 89,
     "category": "Accessories",
@@ -281,7 +281,7 @@
   },
   {
     "name": "Smartwatch Series 5",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Stay connected and track fitness goals with this smartwatch. It offers a sleek design, health monitoring, notifications, and various apps to enhance your daily life.",
     "price": 249,
     "category": "Wearables",
@@ -291,7 +291,7 @@
   },
   {
     "name": "DSLR Camera Alpha",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Capture high-quality images with this DSLR camera. It features a powerful sensor, fast autofocus, and a variety of lenses, perfect for both amateurs and professionals.",
     "price": 899,
     "category": "Cameras",
@@ -301,7 +301,7 @@
   },
   {
     "name": "Running Shoes Pro",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Lightweight and durable running shoes designed for optimal performance. They offer excellent cushioning, support, and grip, perfect for long runs and training sessions.",
     "price": 129,
     "category": "Footwear",
@@ -311,7 +311,7 @@
   },
   {
     "name": "Leather Jacket",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Stylish and durable leather jacket with a classic design. It offers warmth, comfort, and a touch of rugged elegance, perfect for any season.",
     "price": 199,
     "category": "Apparel",
@@ -321,7 +321,7 @@
   },
   {
     "name": "Electric Kettle",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Boil water quickly with this electric kettle. It features a sleek design, fast boiling time, and safety features, making it an essential kitchen appliance.",
     "price": 49,
     "category": "Home Appliances",
@@ -331,7 +331,7 @@
   },
   {
     "name": "Office Chair Ergonomic",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Comfortable ergonomic office chair designed to support long hours of work. It features adjustable height, lumbar support, and a breathable mesh back.",
     "price": 159,
     "category": "Furniture",
@@ -341,7 +341,7 @@
   },
   {
     "name": "Coffee Maker",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Brew fresh coffee every morning with this easy-to-use coffee maker. It offers various brewing options, a sleek design, and easy cleanup.",
     "price": 89,
     "category": "Home Appliances",
@@ -351,7 +351,7 @@
   },
   {
     "name": "Smart Refrigerator",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Keep your food fresh with smart features like temperature control, energy efficiency, and a spacious interior. Perfect for modern kitchens.",
     "price": 1499,
     "category": "Home Appliances",
@@ -361,7 +361,7 @@
   },
   {
     "name": "Digital SLR Camera",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Capture memories in stunning detail with this digital SLR camera. It offers a high-resolution sensor, versatile lenses, and advanced features for professional-quality photos.",
     "price": 999,
     "category": "Cameras",
@@ -371,7 +371,7 @@
   },
   {
     "name": "Smart Light Bulbs",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Control your home's lighting with these smart light bulbs. They offer customizable colors, remote control, and energy efficiency, enhancing your home's ambiance.",
     "price": 29,
     "category": "Home Automation",
@@ -381,7 +381,7 @@
   },
   {
     "name": "Electric Toothbrush",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Achieve a cleaner, healthier smile with this electric toothbrush. It features multiple brushing modes, a long battery life, and a sleek design.",
     "price": 79,
     "category": "Personal Care",
@@ -391,7 +391,7 @@
   },
   {
     "name": "Portable Charger",
-    "image": "https://i.ibb.co/s28y8t9/img-61.jpg",
+    "image": "https://i.ibb.co/v4GByD8/pexels-madebymath-90946.jpg",
     "description": "Keep your devices powered on the go with this portable charger. It offers fast charging, multiple ports, and a compact design, perfect for travel.",
     "price": 49,
     "category": "Accessories",
