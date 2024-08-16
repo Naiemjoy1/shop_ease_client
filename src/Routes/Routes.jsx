@@ -7,6 +7,7 @@ import Dashboard from "../Pages/Dashboard/Dashboard";
 import ShowProducts from "../Pages/Dashboard/ShowProducts/ShowProducts";
 import PrivateRoute from "../Components/Private/PrivateRoute";
 import UpdateProducts from "../Pages/Home/Products/UpdateProducts";
+import AddProduct from "../Pages/Home/Products/AddProduct";
 
 export const router = createBrowserRouter([
   {
@@ -32,18 +33,8 @@ export const router = createBrowserRouter([
           fetch(`http://localhost:3000/products/${params.id}`),
       },
       {
-        path: "/dashboard",
-        element: (
-          <PrivateRoute>
-            <Dashboard></Dashboard>
-          </PrivateRoute>
-        ),
-        children: [
-          {
-            path: "products",
-            element: <ShowProducts></ShowProducts>,
-          },
-        ],
+        path: "/addproducts",
+        element: <AddProduct></AddProduct>,
       },
     ],
   },

@@ -19,9 +19,9 @@ const Navbar = () => {
         </li>
       </NavLink>
       {user ? (
-        <NavLink to="/dashboard/products">
+        <NavLink to="/addproducts">
           <li>
-            <a>Dashboard</a>
+            <a>Add Product</a>
           </li>
         </NavLink>
       ) : (
