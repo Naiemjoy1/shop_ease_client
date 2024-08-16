@@ -108,10 +108,6 @@ You can view the live application here: [ShopEase Live](https://shopease-scic.we
 4. Push to the branch (`git push origin feature/your-feature`).
 5. Create a new Pull Request.
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Repository Links
 
 - [Frontend Repository](https://github.com/Naiemjoy1/shop_ease_client)
