@@ -170,7 +170,7 @@ const Products = () => {
 
           {/* Pagination */}
           <div className="mt-8 flex justify-evenly items-center">
-            <button onClick={handlePrevPage} className="btn btn-primary">
+            <button onClick={handlePrevPage} className="btn btn-sm btn-primary">
               Previous
             </button>
             <div>
@@ -178,7 +178,7 @@ const Products = () => {
                 <button
                   onClick={() => setCurrentPage(page)}
                   key={page}
-                  className={`btn ${
+                  className={`btn btn-sm ${
                     page === currentPage ? "btn-active btn-primary" : ""
                   }`}
                 >
@@ -186,7 +186,7 @@ const Products = () => {
                 </button>
               ))}
             </div>
-            <button onClick={handleNextPage} className="btn btn-primary">
+            <button onClick={handleNextPage} className="btn btn-sm btn-primary">
               Next
             </button>
             <select
