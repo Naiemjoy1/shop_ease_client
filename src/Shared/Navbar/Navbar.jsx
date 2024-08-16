@@ -36,6 +36,16 @@ const Navbar = () => {
       ) : (
         ""
       )}
+      <NavLink to="/about">
+        <li>
+          <a>About Us</a>
+        </li>
+      </NavLink>
+      <NavLink to="/contact">
+        <li>
+          <a>Contact Us</a>
+        </li>
+      </NavLink>
     </>
   );
 
