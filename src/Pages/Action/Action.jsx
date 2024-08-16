@@ -26,7 +26,9 @@ const Action = () => {
   return (
     <div className="container mx-auto my-10">
       {loading ? (
-        <p>Loading...</p>
+        <div className="text-center py-4">
+          <progress className="progress w-56"></progress>
+        </div>
       ) : (
         <div>
           <div className="grid lg:grid-cols-3 grid-cols-2 gap-5">

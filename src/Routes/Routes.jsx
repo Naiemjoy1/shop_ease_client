@@ -35,7 +35,9 @@ export const router = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:3000/products/${params.id}`),
+          fetch(
+            `https://shop-ease-server-amber.vercel.app/products/${params.id}`
+          ),
       },
       {
         path: "/addproducts",
