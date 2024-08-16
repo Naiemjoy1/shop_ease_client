@@ -15,24 +15,34 @@ const Products = () => {
   const [currentPage, setCurrentPage] = useState(0);
 
   useEffect(() => {
-    fetch(
-      `http://localhost:3000/products?page=${currentPage}&size=${itemsPerPage}`
-    )
-      .then((res) => res.json())
-      .then((data) => {
-        setProducts(data.products);
-        setTotalProducts(data.totalProducts);
+    const fetchProducts = async () => {
+      const res = await fetch(
+        `http://localhost:3000/products?page=${currentPage}&size=${itemsPerPage}&search=${searchQuery}&sort=${sortCriteria}&brand=${brand}&category=${category}&priceRange=${priceRange}`
+      );
+      const data = await res.json();
+      setProducts(data.products);
+      setTotalProducts(data.totalProducts);
 
-        const uniqueBrands = [
-          ...new Set(data.products.map((product) => product.brand)),
-        ];
-        const uniqueCategories = [
-          ...new Set(data.products.map((product) => product.category)),
-        ];
-        setBrands(uniqueBrands);
-        setCategories(uniqueCategories);
-      });
-  }, [currentPage, itemsPerPage]);
+      const uniqueBrands = [
+        ...new Set(data.products.map((product) => product.brand)),
+      ];
+      const uniqueCategories = [
+        ...new Set(data.products.map((product) => product.category)),
+      ];
+      setBrands(uniqueBrands);
+      setCategories(uniqueCategories);
+    };
+
+    fetchProducts();
+  }, [
+    currentPage,
+    itemsPerPage,
+    searchQuery,
+    sortCriteria,
+    brand,
+    category,
+    priceRange,
+  ]);
 
   const handleSortChange = (e) => {
     setSortCriteria(e.target.value);
@@ -53,30 +63,6 @@ const Products = () => {
   const handleSearchChange = (e) => {
     setSearchQuery(e.target.value.toLowerCase());
   };
-
-  const filteredProducts = products
-    .filter((product) => {
-      if (brand !== "all" && product.brand !== brand) return false;
-      if (category !== "all" && product.category !== category) return false;
-      if (priceRange === "low" && product.price > 50) return false;
-      if (priceRange === "mid" && (product.price < 50 || product.price > 100))
-        return false;
-      if (priceRange === "high" && product.price < 100) return false;
-      if (searchQuery && !product.name.toLowerCase().includes(searchQuery))
-        return false;
-      return true;
-    })
-    .sort((a, b) => {
-      if (sortCriteria === "price-low-high") {
-        return a.price - b.price;
-      } else if (sortCriteria === "price-high-low") {
-        return b.price - a.price;
-      } else if (sortCriteria === "date-newest") {
-        return new Date(b.createdAt) - new Date(a.createdAt);
-      } else {
-        return 0;
-      }
-    });
 
   const numberOfPages = Math.ceil(totalProducts / itemsPerPage);
   const pages = Array.from({ length: numberOfPages }, (_, index) => index);
@@ -163,7 +149,7 @@ const Products = () => {
 
         <div className="lg:w-9/12">
           <div className="grid lg:grid-cols-3 grid-cols-2 gap-5">
-            {filteredProducts.map((product) => (
+            {products.map((product) => (
               <ProductsCard key={product._id} product={product} />
             ))}
           </div>
