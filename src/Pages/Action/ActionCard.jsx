@@ -1,13 +1,13 @@
-import { Rating } from "@smastrom/react-rating";
-import "@smastrom/react-rating/style.css";
-import { FaRegEdit } from "react-icons/fa";
+import React from "react";
+import useAxiosPublic from "../../Hooks/useAxiosPublic";
 import { Link, useNavigate } from "react-router-dom";
-import useAuth from "../../../Hooks/useAuth";
+import useAuth from "../../Hooks/useAuth";
+import { Rating } from "@smastrom/react-rating";
+import { FaRegEdit } from "react-icons/fa";
 import { MdDelete } from "react-icons/md";
 import Swal from "sweetalert2";
-import useAxiosPublic from "../../../Hooks/useAxiosPublic";
 
-const ProductsCard = ({ product }) => {
+const ActionCard = ({ product, refetch }) => {
   const { name, image, description, price, category, rating, createdAt } =
     product;
   const { user } = useAuth();
@@ -35,6 +35,7 @@ const ProductsCard = ({ product }) => {
       if (result.isConfirmed) {
         try {
           const res = await axiosPublic.delete(`/products/${product._id}`);
+          refetch();
           if (res.data.deletedCount > 0) {
             Swal.fire({
               title: "Deleted!",
@@ -52,7 +53,6 @@ const ProductsCard = ({ product }) => {
       }
     });
   };
-
   return (
     <div className="card bg-base-100 shadow-xl h-full flex flex-col relative">
       <figure>
@@ -114,7 +114,7 @@ const ProductsCard = ({ product }) => {
           </div>
         </div>
       </div>
-      {/* {user ? (
+      {user ? (
         <div className="absolute top-4 right-4 text-primary text-xl">
           <Link to={`products/${product._id}`}>
             <button>
@@ -129,9 +129,9 @@ const ProductsCard = ({ product }) => {
             <MdDelete />
           </button>
         </div>
-      ) : null} */}
+      ) : null}
     </div>
   );
 };
 
-export default ProductsCard;
+export default ActionCard;

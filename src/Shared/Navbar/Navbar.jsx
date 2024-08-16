@@ -27,15 +27,9 @@ const Navbar = () => {
       ) : (
         ""
       )}
-
-      <NavLink>
+      <NavLink to="/action">
         <li>
-          <a>About</a>
-        </li>
-      </NavLink>
-      <NavLink>
-        <li>
-          <a>Contact</a>
+          <a>Action</a>
         </li>
       </NavLink>
     </>
