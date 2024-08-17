@@ -35,7 +35,7 @@ const SignUp = () => {
   };
 
   return (
-    <div className="w-1/2 mx-auto min-h-[calc(100vh-168px)]">
+    <div className="lg:w-1/2 mx-auto min-h-[calc(100vh-168px)]">
       <form onSubmit={handleSubmit(onSubmit)} className="card-body">
         <div className="form-control">
           <label className="label">
